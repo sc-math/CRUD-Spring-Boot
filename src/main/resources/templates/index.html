@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Test</title>
+</head>
+<body>
+    <div class="container">
+        <form id="person-form">
+            <h2 class="form-person-heading">Cadastre uma pessoa</h2>
+            <label for="fname">Nome</label> <br>
+            <input type="text" id="fname" required placeholder="Digite seu Nome" name="fname"/> <br>
+
+            <label for="fEmail">Email</label> <br>
+            <input type="text" id="fEmail" required placeholder="Digite seu Email" name="fEmail"/> <br>
+
+            <label for="fAge">Age</label> <br>
+            <input type="text" id="fAge" required placeholder="Digite sua idade" name="fAge"/> <br>
+
+            <label for="fCpf">Cpf</label> <br>
+            <input type="text" id="fCpf" required placeholder="Digite seu cpf" name="fCpf"/> <br>
+
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+    <div>
+        <h2>Lista de Pessoas</h2>
+        <table id="personsTable">
+            <thead>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Idade</th>
+                <th>CPF</th>
+            </thead>
+        </table>
+    </div>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
